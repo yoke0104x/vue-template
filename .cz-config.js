@@ -16,8 +16,8 @@ module.exports = {
     // ],
     messages: {
         type: '请选择提交类型:',
-        // scope: '请输入修改的范围（可选）',
-        customScope: '请输入您修改的范围(必填):',
+        // scope: '修改的模块名称(可选):',
+        customScope: '修改的模块名称(可选):',
         subject: '请简要描述提交 message (必填):',
         body: '请输入详细描述(可选，待优化去除，跳过即可):',
         footer: '请输入要关闭的issue(待优化去除，跳过即可):',
