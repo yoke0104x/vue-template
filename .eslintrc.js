@@ -3,7 +3,7 @@ module.exports = {
         browser: true,
         es2021: true,
     },
-    extends: ["eslint:recommended", "plugin:vue/essential", "plugin:@typescript-eslint/recommended"],
+    extends: ["eslint:recommended", "plugin:vue/vue3-essential", "plugin:@typescript-eslint/recommended"],
     // "parserOptions": {
     //     "ecmaVersion": "latest",
     //     "parser": "@typescript-eslint/parser",
@@ -15,8 +15,6 @@ module.exports = {
     },
     plugins: ["vue", "@typescript-eslint"],
     rules: {
-        globals: {
-            commonjs: true,
-        },
+
     },
 };
